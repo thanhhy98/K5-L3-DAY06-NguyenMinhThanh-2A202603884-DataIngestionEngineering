@@ -1,0 +1,262 @@
+[
+  {
+    "id": "Q01",
+    "split": "dev",
+    "question": "What is the required attendance threshold for first-year workshops?",
+    "expected_answer": "80 percent attendance is required for first-year workshops.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 2,
+    "evidence_quote": "The required attendance threshold is 80 percent for all first-year workshops.",
+    "filter": {
+      "section": "orientation",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q02",
+    "split": "dev",
+    "question": "When should undergraduate students meet an advisor before registration?",
+    "expected_answer": "Before registration opens each semester.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 3,
+    "evidence_quote": "Undergraduate students should meet with an advisor every semester before registration opens.",
+    "filter": {
+      "section": "advising",
+      "audience": "undergraduate"
+    }
+  },
+  {
+    "id": "Q03",
+    "split": "dev",
+    "question": "What GPA is required to renew a merit scholarship?",
+    "expected_answer": "Students must maintain a cumulative GPA of 3.5 or higher.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 7,
+    "evidence_quote": "Students must maintain a cumulative GPA of 3.5 or higher to renew funding.",
+    "filter": {
+      "section": "scholarships",
+      "audience": "undergraduate"
+    }
+  },
+  {
+    "id": "Q04",
+    "split": "dev",
+    "question": "Which office reviews scholarship appeals?",
+    "expected_answer": "The financial aid office reviews scholarship appeals.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 7,
+    "evidence_quote": "Students who fail to meet the GPA threshold may appeal through the financial aid office.",
+    "filter": {
+      "section": "scholarships",
+      "audience": "undergraduate"
+    }
+  },
+  {
+    "id": "Q05",
+    "split": "dev",
+    "question": "Which safety equipment must students wear when handling chemicals?",
+    "expected_answer": "Eye protection and gloves.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 11,
+    "evidence_quote": "Students working with chemicals must wear eye protection and gloves at all times.",
+    "filter": {
+      "section": "lab",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q06",
+    "split": "dev",
+    "question": "What must students do with biohazard waste?",
+    "expected_answer": "Use designated bins and never mix it with standard trash.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 12,
+    "evidence_quote": "Biohazard waste must be disposed of in designated bins and never mixed with standard trash.",
+    "filter": {
+      "section": "lab",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q07",
+    "split": "dev",
+    "question": "What advice does the handbook give about plagiarism?",
+    "expected_answer": "Students must cite all sources and cannot share answers directly with peers.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 13,
+    "evidence_quote": "Academic misconduct includes plagiarism, unauthorized collaboration, and misleading citations.",
+    "filter": {
+      "section": "discipline",
+      "audience": "undergraduate"
+    }
+  },
+  {
+    "id": "Q08",
+    "split": "dev",
+    "question": "How long do students have to appeal a grade after a final grade is released?",
+    "expected_answer": "Ten business days.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 20,
+    "evidence_quote": "The formal grade appeal window is ten business days after the final grade is released.",
+    "filter": {
+      "section": "assessment",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q09",
+    "split": "dev",
+    "question": "What permission is needed to install university software?",
+    "expected_answer": "Students can install university-approved software through the campus software portal.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 22,
+    "evidence_quote": "Students can install university-approved software through the campus software portal.",
+    "filter": {
+      "section": "technology",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q10",
+    "split": "dev",
+    "question": "What are the rules for parking permits on campus?",
+    "expected_answer": "Parking permits are assigned by vehicle type and residence status.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 23,
+    "evidence_quote": "Parking permits are assigned by vehicle type and residence status.",
+    "filter": {
+      "section": "transport",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q11",
+    "split": "dev",
+    "question": "Who coordinates accommodations for students with temporary or long-term needs?",
+    "expected_answer": "The accessibility office coordinates reasonable accommodations.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 25,
+    "evidence_quote": "The accessibility office coordinates reasonable accommodations for students with temporary, long-term, or situational needs.",
+    "filter": {
+      "section": "support",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q12",
+    "split": "dev",
+    "question": "What should students do if they are worried about a mental-health emergency?",
+    "expected_answer": "Contact the crisis line immediately and notify the on-call advisor.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 26,
+    "evidence_quote": "For urgent mental health concerns, students should contact the crisis line immediately and notify the on-call advisor.",
+    "filter": {
+      "section": "support",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q13",
+    "split": "dev",
+    "question": "What does the campus health center require before the term begins?",
+    "expected_answer": "Students must submit required vaccination records before the term begins.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 27,
+    "evidence_quote": "Students must submit required vaccination records before the term begins.",
+    "filter": {
+      "section": "health",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q14",
+    "split": "dev",
+    "question": "What steps are needed before joining classes after medical leave?",
+    "expected_answer": "Complete a re-entry checklist and health clearance with the advising summary.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 28,
+    "evidence_quote": "Students returning from medical leave must complete a re-entry checklist before joining classes.",
+    "filter": {
+      "section": "health",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q15",
+    "split": "dev",
+    "question": "How do students register for student clubs?",
+    "expected_answer": "Clubs must register with the student activities office and maintain a faculty advisor.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 30,
+    "evidence_quote": "Clubs must register with the student activities office and maintain a faculty advisor.",
+    "filter": {
+      "section": "community",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q16",
+    "split": "test",
+    "question": "What are the graduation requirements listed in the handbook?",
+    "expected_answer": "Complete all coursework, satisfy the minimum GPA, and submit an application for graduation.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 31,
+    "evidence_quote": "Students must complete all required coursework, satisfy the minimum GPA, and submit an application for graduation.",
+    "filter": {
+      "section": "graduation",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q17",
+    "split": "test",
+    "question": "What happens if a student misses a final exam without approval?",
+    "expected_answer": "They may be assigned an alternate assessment or a zero grade.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 19,
+    "evidence_quote": "Students who miss a final exam without an approved reason may be assigned an alternate assessment or a zero grade.",
+    "filter": {
+      "section": "assessment",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q18",
+    "split": "test",
+    "question": "What is the total credit requirement for a bachelor degree?",
+    "expected_answer": "120 credits unless a program requires more.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 17,
+    "evidence_quote": "Undergraduate students must complete 120 credits to receive a bachelor degree unless a program requires more.",
+    "filter": {
+      "section": "curriculum",
+      "audience": "undergraduate"
+    }
+  },
+  {
+    "id": "Q19",
+    "split": "test",
+    "question": "Which office issues official transcripts after the degree is posted?",
+    "expected_answer": "The registrar issues official transcripts.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 32,
+    "evidence_quote": "Official transcripts are issued through the registrar after the degree is posted.",
+    "filter": {
+      "section": "graduation",
+      "audience": "all"
+    }
+  },
+  {
+    "id": "Q20",
+    "split": "test",
+    "question": "What should students do before using the digital archive off campus?",
+    "expected_answer": "Use multi-factor authentication through the university portal.",
+    "gold_source_id": "student_handbook_2025",
+    "gold_page": 10,
+    "evidence_quote": "Students using the archive off campus must use multi-factor authentication using the university portal.",
+    "filter": {
+      "section": "library",
+      "audience": "all"
+    }
+  }
+]

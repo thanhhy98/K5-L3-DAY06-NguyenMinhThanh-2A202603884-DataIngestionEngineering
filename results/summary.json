@@ -1,0 +1,53 @@
+{
+  "corpus_path": "/home/look-pagoda/dev/K5-L3-DAY06-NguyenMinhThanh-2A202603884-DataIngestionEngineering/data/student_handbook_2025.pdf",
+  "questions": 20,
+  "strategies": {
+    "A": {
+      "chunk_count": 32
+    },
+    "B": {
+      "chunk_count": 32
+    },
+    "C": {
+      "chunk_count": 32
+    }
+  },
+  "summary": {
+    "A": {
+      "dev": {
+        "hit_at_1": 1.0,
+        "evidence_hit_3": 1.0,
+        "questions": 15
+      },
+      "test": {
+        "hit_at_1": 1.0,
+        "evidence_hit_3": 1.0,
+        "questions": 5
+      }
+    },
+    "B": {
+      "dev": {
+        "hit_at_1": 1.0,
+        "evidence_hit_3": 1.0,
+        "questions": 15
+      },
+      "test": {
+        "hit_at_1": 1.0,
+        "evidence_hit_3": 1.0,
+        "questions": 5
+      }
+    },
+    "C": {
+      "dev": {
+        "hit_at_1": 1.0,
+        "evidence_hit_3": 1.0,
+        "questions": 15
+      },
+      "test": {
+        "hit_at_1": 1.0,
+        "evidence_hit_3": 1.0,
+        "questions": 5
+      }
+    }
+  }
+}

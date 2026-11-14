@@ -1,0 +1,265 @@
+{
+  "source_id": "student_handbook_2025",
+  "title": "Student Handbook 2025",
+  "source_path_or_url": "/home/look-pagoda/dev/K5-L3-DAY06-NguyenMinhThanh-2A202603884-DataIngestionEngineering/starter/data/student_handbook_2025.txt",
+  "license_or_permission": "Generated for classroom use; not a third-party public document.",
+  "accessed_at": "2026-11-14",
+  "pages": [
+    {
+      "document_id": "student_handbook_2025",
+      "page": 1,
+      "title": "Welcome and contact information",
+      "section": "welcome",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 2,
+      "title": "Orientation checklist",
+      "section": "orientation",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 3,
+      "title": "Advising policy",
+      "section": "advising",
+      "audience": "undergraduate",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 4,
+      "title": "Research advising",
+      "section": "advising",
+      "audience": "postgraduate",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 5,
+      "title": "Attendance and participation",
+      "section": "attendance",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 6,
+      "title": "Academic wellbeing",
+      "section": "wellbeing",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 7,
+      "title": "Merit scholarships",
+      "section": "scholarships",
+      "audience": "undergraduate",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 8,
+      "title": "Need-based aid",
+      "section": "scholarships",
+      "audience": "undergraduate",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 9,
+      "title": "Graduate funding",
+      "section": "tuition",
+      "audience": "postgraduate",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 10,
+      "title": "Library access",
+      "section": "library",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 11,
+      "title": "Laboratory safety",
+      "section": "lab",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 12,
+      "title": "Biohazard rules",
+      "section": "lab",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 13,
+      "title": "Academic integrity",
+      "section": "discipline",
+      "audience": "undergraduate",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 14,
+      "title": "Conduct expectations",
+      "section": "discipline",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 15,
+      "title": "Housing policy",
+      "section": "housing",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 16,
+      "title": "Meal plan choices",
+      "section": "housing",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 17,
+      "title": "Credit requirements",
+      "section": "curriculum",
+      "audience": "undergraduate",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 18,
+      "title": "Graduate milestones",
+      "section": "curriculum",
+      "audience": "postgraduate",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 19,
+      "title": "Assessment schedule",
+      "section": "assessment",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 20,
+      "title": "Grading policies",
+      "section": "assessment",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 21,
+      "title": "Digital account access",
+      "section": "technology",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 22,
+      "title": "Software licensing",
+      "section": "technology",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 23,
+      "title": "Transit and parking",
+      "section": "transport",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 24,
+      "title": "Bike and scooter rules",
+      "section": "transport",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 25,
+      "title": "Accessibility and accommodations",
+      "section": "support",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 26,
+      "title": "Counseling and crisis support",
+      "section": "support",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 27,
+      "title": "Vaccination and screening",
+      "section": "health",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 28,
+      "title": "Medical leave",
+      "section": "health",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 29,
+      "title": "Volunteering and service",
+      "section": "community",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 30,
+      "title": "Student clubs and societies",
+      "section": "community",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 31,
+      "title": "Graduation requirements",
+      "section": "graduation",
+      "audience": "all",
+      "year": "2025"
+    },
+    {
+      "document_id": "student_handbook_2025",
+      "page": 32,
+      "title": "Commencement and transcripts",
+      "section": "graduation",
+      "audience": "all",
+      "year": "2025"
+    }
+  ]
+}

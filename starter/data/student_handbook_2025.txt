@@ -1,0 +1,255 @@
+[PAGE 1]
+Title: Welcome and contact information
+Section: welcome
+Audience: all
+Year: 2025
+
+The student handbook introduces campus services, support pathways, and the expected standards for every enrolled learner. All students can contact the registrar, advising office, and student support desk for orientation assistance. Students must confirm their enrollment details before the first academic advising meeting. The campus is committed to accessible study and inclusive participation across every program.
+
+[PAGE 2]
+Title: Orientation checklist
+Section: orientation
+Audience: all
+Year: 2025
+
+Orientation begins with identity verification and digital account activation. Students are expected to complete onboarding tasks before the second week of classes. Students who miss orientation can still register for classes after contacting the advising office for a make-up session. The required attendance threshold is 80 percent for all first-year workshops.
+
+[PAGE 3]
+Title: Advising policy
+Section: advising
+Audience: undergraduate
+Year: 2025
+
+Undergraduate students should meet with an advisor every semester before registration opens. Advisors confirm degree progress, prerequisite sequencing, and expected graduation timelines. Students who change majors must complete a brief review with the faculty advisor and submit updated paperwork before the new term begins.
+
+[PAGE 4]
+Title: Research advising
+Section: advising
+Audience: postgraduate
+Year: 2025
+
+Graduate students are assigned a research advisor at the start of the academic year. The advisor helps review degree milestones, research proposal timing, and ethics approvals. Students must notify the graduate office if a supervisor change is requested or if there is a conflict in research goals.
+
+[PAGE 5]
+Title: Attendance and participation
+Section: attendance
+Audience: all
+Year: 2025
+
+Regular attendance is required for classes, labs, and tutorials. Faculty may require attendance records for students who use scholarships or sponsorship funding. Students with medical leave must submit documentation within ten working days of the absence. Excused absences are recorded by the school office and shared with instructors.
+
+[PAGE 6]
+Title: Academic wellbeing
+Section: wellbeing
+Audience: all
+Year: 2025
+
+The campus wellbeing center provides academic coaching, stress support, and general wellness referrals. Students are encouraged to use the center before a situation becomes critical. Staff can help arrange flexible study plans after a significant health event or family emergency. Peer mentoring is available for first-year students.
+
+[PAGE 7]
+Title: Merit scholarships
+Section: scholarships
+Audience: undergraduate
+Year: 2025
+
+Eligibility for merit scholarships is based on performance in the previous academic year. Students must maintain a cumulative GPA of 3.5 or higher to renew funding. The review committee also checks participation in student organizations and service activities. Students who fail to meet the GPA threshold may appeal through the financial aid office.
+
+[PAGE 8]
+Title: Need-based aid
+Section: scholarships
+Audience: undergraduate
+Year: 2025
+
+Need-based grants are assigned according to submitted financial information and household need. Students must update their application if family income, household size, or dependent status changes materially. A scholarship advisor may request additional evidence before awards are finalized. Requests for reconsideration are open until the end of the semester.
+
+[PAGE 9]
+Title: Graduate funding
+Section: tuition
+Audience: postgraduate
+Year: 2025
+
+Graduate students may receive assistantships, research stipends, or tuition waivers. Funding requires satisfactory progress in coursework and research milestones. A student who receives a funding letter must confirm acceptance by the deadline stated in the letter. Unused funding may be reallocated after the approval of the graduate dean.
+
+[PAGE 10]
+Title: Library access
+Section: library
+Audience: all
+Year: 2025
+
+Library cards remain active for enrolled students and valid alumni on official campus programs. Students must present their official ID to borrow reserved materials. Access to the digital archive is granted via the campus login. Students using the archive off campus must use multi-factor authentication using the university portal.
+
+[PAGE 11]
+Title: Laboratory safety
+Section: lab
+Audience: all
+Year: 2025
+
+Students entering laboratories must complete safety induction before using equipment. Training is refreshed annually and includes emergency exit routes, protective equipment, and cleaning procedures. Students working with chemicals must wear eye protection and gloves at all times. Safety officers can deny access if the paperwork is incomplete or if training is out of date.
+
+[PAGE 12]
+Title: Biohazard rules
+Section: lab
+Audience: all
+Year: 2025
+
+Biohazard waste must be disposed of in designated bins and never mixed with standard trash. Students handling clinical samples must wash hands before and after removing gloves. Any spill or injury must be reported immediately to the lab supervisor and the campus health office. Supervisors review incident reports within one working day.
+
+[PAGE 13]
+Title: Academic integrity
+Section: discipline
+Audience: undergraduate
+Year: 2025
+
+Academic misconduct includes plagiarism, unauthorized collaboration, and misleading citations. Students should cite all sources used in written work and may discuss general concepts with peers, but not share answers directly. Repeated integrity violations may lead to a formal hearing and academic probation. Students may appeal a decision through the student affairs committee.
+
+[PAGE 14]
+Title: Conduct expectations
+Section: discipline
+Audience: all
+Year: 2025
+
+Students are expected to respect community standards in classrooms, online forums, and campus events. Harassment, discrimination, and intimidation are prohibited under the code of conduct. Reports may be made confidentially to a conduct officer or a designated support contact. The university will investigate complaints in a fair and timely manner.
+
+[PAGE 15]
+Title: Housing policy
+Section: housing
+Audience: all
+Year: 2025
+
+On-campus housing assignments are processed after admissions decisions and tuition deposit confirmation. Students may request room changes if there is a conflict with roommates or a medical accommodation need. University housing staff review requests within fourteen calendar days. Students must comply with health and safety inspections before moving in.
+
+[PAGE 16]
+Title: Meal plan choices
+Section: housing
+Audience: all
+Year: 2025
+
+Meal plans can be selected during registration or during the add-drop period. Students on graduate assistantships may switch to a reduced meal plan if their agreement permits. The office of dining services will offer temporary substitutions only for documented medical needs. Meal plan rates are fixed for the current academic year.
+
+[PAGE 17]
+Title: Credit requirements
+Section: curriculum
+Audience: undergraduate
+Year: 2025
+
+Undergraduate students must complete 120 credits to receive a bachelor degree unless a program requires more. Each degree program lists required major courses, general education credits, and electives. Students must complete prerequisite requirements before taking advanced courses, and placement evaluations may alter their first semester schedule.
+
+[PAGE 18]
+Title: Graduate milestones
+Section: curriculum
+Audience: postgraduate
+Year: 2025
+
+Graduate programs include coursework, qualifying examinations, research progress reviews, and dissertation or thesis submission. Students should consult the program handbook for precise milestones and deadlines. A delayed milestone may be approved only with a faculty petition and stated justification. Students must maintain continuous registration unless granted a leave of absence.
+
+[PAGE 19]
+Title: Assessment schedule
+Section: assessment
+Audience: all
+Year: 2025
+
+The semester calendar includes midterm assessments, final examinations, and project deadlines. Students are notified by email and LMS alerts at least two weeks before major assessments. Students who miss a final exam without an approved reason may be assigned an alternate assessment or a zero grade. Faculty must publish grading criteria before the assignment due date.
+
+[PAGE 20]
+Title: Grading policies
+Section: assessment
+Audience: all
+Year: 2025
+
+Course grades are based on the rubric published in the syllabus. Students may request a review of marks if they believe a clerical or calculation error occurred. The formal grade appeal window is ten business days after the final grade is released. All appeals must be supported by evidence from the syllabus and assignment materials.
+
+[PAGE 21]
+Title: Digital account access
+Section: technology
+Audience: all
+Year: 2025
+
+Every student receives a campus account to access email, LMS, and cloud storage. The university requires password rotation and secure two-factor authentication for privileged systems. Students who share credentials risk disciplinary action under the IT acceptable use policy. Requests for account reactivation must be approved by the IT help desk.
+
+[PAGE 22]
+Title: Software licensing
+Section: technology
+Audience: all
+Year: 2025
+
+Students can install university-approved software through the campus software portal. Licensed tools may be used for coursework and personal study only, and not for commercial work. Software support may be unavailable on personal devices without the required system requirements. Students should report licensing problems to the support center before deadlines.
+
+[PAGE 23]
+Title: Transit and parking
+Section: transport
+Audience: all
+Year: 2025
+
+Students may use campus shuttles and public transit passes according to semester registration. Parking permits are assigned by vehicle type and residence status. Students who park without a permit may receive a warning or a fine based on the violation schedule. Appeals are considered by the campus operations office within thirty days.
+
+[PAGE 24]
+Title: Bike and scooter rules
+Section: transport
+Audience: all
+Year: 2025
+
+Bicycles and scooters must be parked in designated racks and may not block sidewalks or exits. Students are expected to wear helmets when using scooters on campus roads. Safety officers can remove abandoned bikes after a documented warning period. E-scooters must be charged and checked before leaving residence halls.
+
+[PAGE 25]
+Title: Accessibility and accommodations
+Section: support
+Audience: all
+Year: 2025
+
+The accessibility office coordinates reasonable accommodations for students with temporary, long-term, or situational needs. Students can request reasonable adjustments for exams, lectures, and digital materials. Requests are reviewed with the relevant faculty member and documentation from a healthcare professional when required. Students should apply before each semester if their needs change.
+
+[PAGE 26]
+Title: Counseling and crisis support
+Section: support
+Audience: all
+Year: 2025
+
+Confidential counseling is available for personal, academic, and family-related stress. Students can request short-term support or referral to a specialist outside the university. For urgent mental health concerns, students should contact the crisis line immediately and notify the on-call advisor. The support team can coordinate care with faculty on a need-to-know basis.
+
+[PAGE 27]
+Title: Vaccination and screening
+Section: health
+Audience: all
+Year: 2025
+
+Students must submit required vaccination records before the term begins. The campus health center may request additional screening when there is a public health notice. Students who are non-compliant may be restricted from shared facilities until records are complete. Health records are stored securely and used only for compliance checks.
+
+[PAGE 28]
+Title: Medical leave
+Section: health
+Audience: all
+Year: 2025
+
+Students who are medically unwell may request leave for a defined period after submitting documentation. Faculty may grant deadline extensions with formal approval from the dean of students. Students returning from medical leave must complete a re-entry checklist before joining classes. The checklist includes health clearance and your advising meeting summary.
+
+[PAGE 29]
+Title: Volunteering and service
+Section: community
+Audience: all
+Year: 2025
+
+Students may participate in volunteer programs through the campus service office. Service hours can strengthen leadership and community engagement records. Students working with minors or vulnerable groups must complete screening and supervisor training before placement. These programs are run under the community partnerships office.
+
+[PAGE 30]
+Title: Student clubs and societies
+Section: community
+Audience: all
+Year: 2025
+
+The campus supports student-led clubs, cultural groups, and academic societies. Clubs must register with the student activities office and maintain a faculty advisor. Student organizations may request rooms and funding based on a yearly review cycle. Students joining clubs are encouraged to review the risk and conduct policies before participation.
+
+[PAGE 31]
+Title: Graduation requirements
+Section: graduation
+Audience: all
+Year: 2025
+
+Students must complete all required coursework, satisfy the minimum GPA, and submit an application for graduation. Students who fail to apply by the deadline may graduate in the next available term. The registrar confirms all requirements before awarding the degree. Students can track progress through the student portal and faculty advising reports.
+
+[PAGE 32]
+Title: Commencement and transcripts
+Section: graduation
+Audience: all
+Year: 2025
+
+Graduates may attend commencement if they have completed all requirements or are on track to finish in the next semester. Official transcripts are issued through the registrar after the degree is posted. Students may request replacement copies if documents are lost or damaged. Fraudulent requests are reviewed by the registrar and campus compliance office.
