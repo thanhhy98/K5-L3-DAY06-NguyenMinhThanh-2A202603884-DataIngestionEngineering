@@ -35,6 +35,27 @@ class PgVectorStore:
                     )
                     """
                 )
+                # CREATE TABLE IF NOT EXISTS does not change an existing
+                # vector column when the configured embedding model changes.
+                cursor.execute(
+                    """
+                    SELECT format_type(attribute.atttypid, attribute.atttypmod)
+                    FROM pg_attribute AS attribute
+                    JOIN pg_class AS relation ON relation.oid = attribute.attrelid
+                    WHERE relation.relname = %s
+                      AND attribute.attname = 'embedding'
+                      AND NOT attribute.attisdropped
+                    """,
+                    (self.table_name,),
+                )
+                row = cursor.fetchone()
+                expected_type = f"vector({self.dimensions})"
+                if row and row[0].lower() != expected_type:
+                    raise ValueError(
+                        f"Embedding dimension mismatch: database column is {row[0]}, "
+                        f"but the configured model produces {expected_type}. "
+                        "Rebuild the index for the selected model before running ingestion."
+                    )
                 cursor.execute(
                     f"CREATE INDEX IF NOT EXISTS {self.table_name}_strategy_idx ON {self.table_name}(strategy)"
                 )

@@ -182,6 +182,8 @@ def _run_pipeline() -> None:
         "corpus_path": str(corpus_path),
         "questions": len(questions),
         "strategies": {k: {"chunk_count": len(per_strategy.get(k, [])) if k in per_strategy else len(strategy_c_chunks)} for k in ["A", "B", "C"]},
+        "embedding": {"provider": "openai" if embedder.model_name.startswith("text-embedding-") else "sentence-transformers",
+                      "model": embedder.model_name, "dimensions": embedder.dimensions},
         "summary": summary,
     }
     results_path = RESULTS_DIR / "summary.json"

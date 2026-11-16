@@ -1,12 +1,8 @@
-"""Choose a real embedding provider (API or local) and implement this contract."""
+"""Embedding adapters with an explicit, reproducible model selection."""
 from __future__ import annotations
 
+import os
 from typing import Protocol
-
-try:
-    from sentence_transformers import SentenceTransformer
-except Exception:  # pragma: no cover - fallback for minimal local setup
-    SentenceTransformer = None
 
 
 class Embedder(Protocol):
@@ -23,37 +19,51 @@ class Embedder(Protocol):
 
 
 class MyEmbedder:
-    """Use a local semantic model when available, otherwise a TF-IDF fallback."""
+    """Use OpenAI embeddings or a named local Sentence Transformers model.
 
-    def __init__(self, model_name: str = "sentence-transformers/all-MiniLM-L6-v2") -> None:
-        self.model_name = model_name
-        if SentenceTransformer is not None:
-            self.model = SentenceTransformer(model_name)
-            demo_vector = self.model.encode(["sample text"], show_progress_bar=False)
-            self.dimensions = len(demo_vector[0])
-            self._vectorizer = None
+    No silent fallback is allowed: all documents and queries in a vector index
+    must use the same real embedding model.
+    """
+
+    def __init__(self, model_name: str | None = None) -> None:
+        self.model_name = model_name or os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
+        self.client = None
+        self.model = None
+        if self.model_name.startswith("text-embedding-"):
+            try:
+                from openai import OpenAI
+            except ImportError as exc:
+                raise RuntimeError("OpenAI embeddings require `python -m pip install openai`") from exc
+            api_key = os.getenv("OPENAI_API_KEY")
+            if not api_key:
+                raise RuntimeError("OPENAI_API_KEY is required for the selected embedding model")
+            self.client = OpenAI(api_key=api_key)
+            # OpenAI text-embedding-3-small defaults to 1536 dimensions.
+            self.dimensions = int(os.getenv("EMBEDDING_DIMENSIONS", "1536"))
         else:
-            from sklearn.feature_extraction.text import TfidfVectorizer
-
-            self.model_name = "tfidf-fallback"
-            self.model = None
-            self._vectorizer = TfidfVectorizer(stop_words="english", ngram_range=(1, 2))
-            self._vectorizer.fit(["sample text"])
-            demo_vector = self._vectorizer.transform(["sample text"]).toarray()[0]
-            self.dimensions = len(demo_vector)
+            try:
+                from sentence_transformers import SentenceTransformer
+            except ImportError as exc:
+                raise RuntimeError("Local embeddings require `python -m pip install sentence-transformers`") from exc
+            self.model = SentenceTransformer(self.model_name)
+            self.dimensions = int(self.model.get_sentence_embedding_dimension())
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
         if not texts:
             return []
+        if self.client is not None:
+            response = self.client.embeddings.create(model=self.model_name, input=texts, dimensions=self.dimensions)
+            return [list(map(float, row.embedding)) for row in response.data]
         if self.model is not None:
             embeddings = self.model.encode(texts, show_progress_bar=False, convert_to_numpy=True)
             return [list(map(float, vector)) for vector in embeddings]
-        matrix = self._vectorizer.transform(texts)
-        return [list(map(float, row)) for row in matrix.toarray()]
+        raise RuntimeError("No embedding provider initialized")
 
     def embed_query(self, question: str) -> list[float]:
+        if self.client is not None:
+            response = self.client.embeddings.create(model=self.model_name, input=[question], dimensions=self.dimensions)
+            return list(map(float, response.data[0].embedding))
         if self.model is not None:
             query_vector = self.model.encode([question], show_progress_bar=False)
             return [float(value) for value in query_vector[0]]
-        vector = self._vectorizer.transform([question]).toarray()[0]
-        return [float(value) for value in vector]
+        raise RuntimeError("No embedding provider initialized")

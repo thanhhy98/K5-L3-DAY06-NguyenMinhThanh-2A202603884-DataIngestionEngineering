@@ -52,7 +52,20 @@ docker compose -p day6_student_starter stop
 
 ## 2. Chọn embedding model
 
-Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` chỉ có dependencies cơ bản: tự cài SDK hoặc thư viện local phù hợp với model bạn chọn và ghi lại version/lệnh cài trong báo cáo. Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
+Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` gồm OpenAI SDK; để dùng Sentence Transformers, cài `python -m pip install sentence-transformers`, sau đó đặt `EMBEDDING_MODEL` thành model ID hoặc đường dẫn model local, ví dụ `sentence-transformers/all-MiniLM-L6-v2`. Với OpenAI, cấu hình `EMBEDDING_MODEL=text-embedding-3-small` và `EMBEDDING_DIMENSIONS=1536` (hoặc số chiều được hỗ trợ). Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
+
+### Đổi model hoặc số chiều
+
+Toàn bộ index phải được nhúng lại nếu đổi model, kể cả khi số chiều không đổi. Không thể chuyển vector cũ sang model mới chỉ bằng đổi kiểu cột. Nếu số chiều cột database không khớp cấu hình, migration bên dưới **đổi tên và giữ nguyên bảng cũ cùng mọi hàng**; lần chạy pipeline kế tiếp tạo bảng mới và tính lại vector. Tạo trước một bản sao lưu rồi chạy trong thư mục `starter/`:
+
+```bash
+docker compose -p day6_student_starter up -d --wait
+docker compose -p day6_student_starter exec -T postgres pg_dump -U day6 -d day6_lab -Fc > day6_lab-before-vector-migration.dump
+python scripts/migrate_vector_dimension.py
+python -m src.run
+```
+
+Sau migration, bảng cũ vẫn nằm trong database với tên như `strategy_chunks_archive_vector_3`; dữ liệu của nó chưa được tái nhúng và không được pipeline mới truy vấn. `python -m src.run` tạo lại index bằng model trong `.env`. Lệnh `pg_dump` lưu bản backup vào file trong thư mục hiện tại; giữ file này an toàn. Không xóa Docker volume để sửa mismatch.
 
 ## 3. Hoàn thiện pipeline
 

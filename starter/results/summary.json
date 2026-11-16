@@ -12,6 +12,11 @@
       "chunk_count": 32
     }
   },
+  "embedding": {
+    "provider": "openai",
+    "model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
   "summary": {
     "A": {
       "dev": {
